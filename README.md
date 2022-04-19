@@ -31,17 +31,37 @@ This is an extended description of the work performed and the results obtained.
 
 • "Code_NARXnet.m" This is the MATLAB file where it is possible to inspect what has been done. 
 
-• "NN-IN.xlsx" This is the Inputs set used.
+• "Live_Code_NARXnet.mlx" This is the MATLAB Live Script file where it is possible to run a new training session. 
 
-• "NN-TARG.csv" This is the Target set used.
+• "Live_NN.mlx" This is the MATLAB Live Script file where it is possible to use the pre-trained network "NARXnet_TRAINED.mat". 
+
+• "NARXnet_TRAINED.mat" This is the TRAINED NET.
+
+• "NN-IN.xlsx" This is the Inputs set used to train and test the net.
+
+• "NN-TARG.csv" This is the Target set used to train and test the net.
+
+• "X-Input.xlsx" This is the Inputs set used in "NN-Live.mlx".
+
+• "Y-FeedBack.csv" This is the FeedBack set used in "NN-Live.mlx".
 
 • The file "Untitled.slx" and "MyNeuralNetworkFunction.m" are the Simulink block and MATLAB code of the NARX network respectively.
 ______________________________________________________________________
 ### HOW TO USE IT?
+
+*If you want to use the pre-trained network*
 1. Download the files:
-"NN-IN.xlsx", "NN-TARG.csv", "Code_NARXnet.m".
+"X-Input.xlsx", "Y-FeedBack.csv", "NARXnet_TRAINED.mat", "Live_NN.mlx".
 2. Save the files in the same folder.
-3. Open "Code_NARXnet.m" with MATLAB ( with the " Deep Learning Toolbox" installed ).
+3. Open "Live_NN.mlx" with MATLAB ( with the " Deep Learning Toolbox" installed ).
+4. Run and get the predictions!
+
+
+*If you want to train your NARX network with the datasets used in this work* 
+1. Download the files:
+"NN-IN.xlsx", "NN-TARG.csv", "Code_NARXnet.mlx".
+2. Save the files in the same folder.
+3. Open "Live_Code_NARXnet.mlx" with MATLAB ( with the " Deep Learning Toolbox" installed ).
 4. Run and train the network!
 
 
