@@ -41,9 +41,9 @@ This is an extended description of the work performed and the results obtained.
 
 • "NN-TARG.csv" This is the Target set used to train and test the net.
 
-• "X-Input.xlsx" This is the Inputs set used in "NN-Live.mlx".
+• "X-Input.xlsx" This is the Inputs set used in "Live_NN.mlx".
 
-• "Y-FeedBack.csv" This is the FeedBack set used in "NN-Live.mlx".
+• "Y-FeedBack.csv" This is the FeedBack set used in "Live_NN.mlx".
 
 • The file "Untitled.slx" and "MyNeuralNetworkFunction.m" are the Simulink block and MATLAB code of the NARX network respectively.
 ______________________________________________________________________
